@@ -1,0 +1,16 @@
+{
+    "name": "gtfs",
+    "description": "Import GTFS transit data to MongoDB",
+    "version": "0.1.0",
+    "author": "flowlance",
+    "dependencies": {
+        "async": "~0.9.0",
+        "csv": "~0.4.2",
+        "mongoose": "~4.0.2",
+        "mongodb": "~2.0.28"
+    },
+    "keywords": ["transit", "gtfs", "transportation"],
+    "scripts": {
+        "start": "node nodeimport.js"
+    }
+}
